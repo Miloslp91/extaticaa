@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "home": "Trang chu",
+    "events": "Su kien",
+    "about": "Ve chung toi",
+    "contact": "Lien he"
+  },
+  "home": {
+    "subtitle": "Nhay Tu Do giua Thien Nhien tai Da Nang & Hoi An",
+    "description": "Chuyen dong tu do giua thien nhien. Nhip dieu bo lac. Ket noi sau sac. Hay den nhay cung chung toi giua rung xanh mien Trung Viet Nam.",
+    "cta_events": "Su kien sap toi",
+    "cta_discover": "Kham pha them",
+    "about_title": "Nhay giua Thien Nhien",
+    "about_p1": "Extaticaa sinh ra tu tinh yeu sau sac voi chuyen dong, am nhac, va ve dep hoang so cua thien nhien. Chung toi dua nhay tu do ra khoi phong tap va vao giua rung xanh, canh dong lua, nui non.",
+    "about_p2": "Khong co quy tac. Khong co buoc nhay de theo. Chi co ban, am nhac, mat dat duoi chan, va mot cong dong san sang don nhan moi bieu hien cua ban.",
+    "about_link": "Cau chuyen cua chung toi",
+    "what_title": "Nhay Tu Do la gi",
+    "what_description": "Nhay tu do la hinh thuc chuyen dong tu do, noi khong co dong tac nao la sai. Khong noi chuyen tren san nhay. Khong dien thoai. Chi co am nhac dua ban di tu nhip cham, tiep dat den dinh cao hoang da va tro ve tinh lang.",
+    "pillar_nature": "Thien Nhien",
+    "pillar_nature_desc": "Moi su kien dien ra ngoai troi. Khoang rung, ben song, canh dong mo duoi sao. Mat dat la san nhay cua ban.",
+    "pillar_movement": "Chuyen Dong",
+    "pillar_movement_desc": "Tu lac lu nhe nhang den bieu hien manh me. Co the ban biet cach chuyen dong. Chung toi chi tao khong gian de no nho lai.",
+    "pillar_community": "Cong Dong",
+    "pillar_community_desc": "Mot vong tron nhung nguoi den khong can mat na. Chuyen dong tro thanh ngon ngu chung. Nguoi la tro thanh bo lac.",
+    "events_title": "Su kien sap toi",
+    "events_subtitle": "Tham gia buoi gap mat tiep theo giua thien nhien.",
+    "events_cta": "Xem tat ca su kien",
+    "ig_title": "Tu San Nhay",
+    "signup_title": "Ket noi voi chung toi",
+    "signup_subtitle": "Nhan thong bao ve su kien sap toi, dia diem moi, va nhung buoi hop mat dac biet."
+  },
+  "events": {
+    "title": "Su kien",
+    "subtitle": "Tim buoi nhay tiep theo cua ban. Moi su kien la mot hanh trinh doc nhat qua am thanh, chuyen dong, va thien nhien.",
+    "noEvents": "Hien tai chua co su kien nao. Dang ky ben duoi de la nguoi dau tien biet.",
+    "getTickets": "Mua ve",
+    "notify_title": "Dung bo lo buoi nhay nao",
+    "notify_subtitle": "Tham gia danh sach va la nguoi dau tien biet ve su kien moi."
+  },
+  "about": {
+    "title": "Cau chuyen cua chung toi",
+    "story_title": "Sinh ra tu Rung",
+    "story_p1": "Extaticaa bat dau voi mot y tuong don gian: neu chung ta nhay o noi chung ta cam thay song dong nhat thi sao? Khong phai trong phong tap voi guong va den huynh quang, ma giua thien nhien, voi am thanh rung xanh lam nen.",
+    "story_p2": "Tai Da Nang va Hoi An, chung toi tim thay ngoi nha hoan hao. Rung xanh, bai bien, nui non, va quan trong nhat la mot cong dong nhung nguoi khao khat ket noi that su va bieu hien chan thuc.",
+    "story_p3": "Moi su kien chung toi tao ra la loi moi tro ve voi co the, chuyen dong khong suy nghi, ket noi khong can loi. Day khong phai bieu dien. Day la thuc hanh.",
+    "values_title": "Gia tri cua chung toi",
+    "value_1_title": "Tu do tuyet doi",
+    "value_1_desc": "Khong vu dao. Khong phan xet. Co the ban, bieu hien cua ban. Moi chuyen dong deu dung.",
+    "value_2_title": "Khong gian Thieng",
+    "value_2_desc": "Chung toi giu khong gian. Khong dien thoai, khong noi chuyen tren san, khong ruou bia. Nhung gi xay ra trong buoi nhay o lai trong buoi nhay.",
+    "value_3_title": "Thien nhien la tren het",
+    "value_3_desc": "Chung toi nhay noi thien nhien hoang da. Moi dia diem duoc chon vi ve dep tu nhien va nang luong cua no.",
+    "value_4_title": "Ket noi that su",
+    "value_4_desc": "Trong the gioi cua man hinh va chuyen phiem, chung toi tao khong gian noi moi nguoi thuc su gap nhau. Anh mat. Hoi tho chung. Nhip dieu tap the.",
+    "team_title": "Doi ngu"
+  },
+  "contact": {
+    "title": "Lien he",
+    "subtitle": "Cau hoi ve su kien, hop tac, hay chi muon chao? Chung toi rat muon nghe tu ban.",
+    "info_title": "Lien lac",
+    "email_label": "Email",
+    "location_label": "Dia diem",
+    "social_label": "Mang xa hoi",
+    "name_label": "Ten",
+    "message_label": "Tin nhan",
+    "send_button": "Gui tin nhan",
+    "success_title": "Da gui",
+    "success_message": "Chung toi se phan hoi som.",
+    "error_message": "Co loi xay ra. Vui long thu lai."
+  },
+  "emailSignup": {
+    "placeholder": "Email cua ban",
+    "button": "Tham gia",
+    "success": "Chao mung den voi bo lac.",
+    "error": "Co loi xay ra. Vui long thu lai."
+  },
+  "instagram": {
+    "followUs": "Theo doi chung toi tren Instagram"
+  },
+  "footer": {
+    "tagline": "Trai nghiem nhay tu do giua rung xanh Da Nang va Hoi An. Chuyen dong tu do. Cam nhan sau sac.",
+    "links": "Kham pha",
+    "events": "Su kien",
+    "about": "Ve chung toi",
+    "contact": "Lien he",
+    "follow": "Theo doi",
+    "rights": "Moi quyen duoc bao luu."
+  }
+}
