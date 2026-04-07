@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
+import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Button } from "@/components/ui/Button";
 import EmailSignup from "@/components/EmailSignup";
 
@@ -22,32 +23,25 @@ const upcomingEvents: EventItem[] = [
   {
     id: 1,
     date: "2026-04-19",
-    title: "Full Moon Ecstatic Dance",
+    title: "The Jungle Tribe: Ecstatic Dance & Cacao Ritual",
     location: "Da Nang",
-    description: "A night of free movement under the full moon, deep in the jungle. Cacao ceremony included.",
-    time: "18:00 - 22:00",
-    ticketUrl: "#",
-    image: "/images/jungle-2.jpg",
+    description: "A multisensory homecoming. Heart-opening cacao ritual with Erosa Chocolate, Dance Movement Therapy with Natasha, a sonic odyssey by DJ Kalisa & M Jay, live tribal drumming, and an elemental fire finale under the stars.",
+    time: "Evening",
+    ticketUrl: "https://www.ticketmelon.com/extaticaa/JUNGLE",
+    image: "/images/event-jungle-tribe.png",
   },
+];
+
+const pastEvents: EventItem[] = [
   {
-    id: 2,
-    date: "2026-05-03",
-    title: "Sunrise Dance & Breathwork",
-    location: "Hoi An",
-    description: "Welcome the sun with breath and movement. Set among the rice fields outside Hoi An.",
-    time: "05:30 - 08:00",
-    ticketUrl: "#",
-    image: "/images/jungle-4.jpg",
-  },
-  {
-    id: 3,
-    date: "2026-05-17",
-    title: "Jungle Rhythm Night",
+    id: 100,
+    date: "2026-03-15",
+    title: "Ecstatic Dance & Cacao Ritual at the Beach",
     location: "Da Nang",
-    description: "Live tribal drums, DJ sets, and ecstatic dance in the heart of the jungle.",
-    time: "19:00 - 23:00",
-    ticketUrl: "#",
-    image: "/images/jungle-3.jpg",
+    description: "A night of raw movement, community, and elemental connection. Heart-opening cacao ceremony with Erosa Chocolate, Dance Movement Therapy by Natasha, sets by M Jay & Hua Luong, live drumming, and fire performances. A safe, sober, phone-free space for radical freedom.",
+    time: "Evening",
+    ticketUrl: "",
+    image: "/images/event-01.jpg",
   },
 ];
 
@@ -144,6 +138,58 @@ export default function EventsPage() {
           )}
         </Container>
       </section>
+
+      {/* Past Events */}
+      {pastEvents.length > 0 && (
+        <section className="section-dark py-24 md:py-32">
+          <Container>
+            <SectionHeading headline={t("pastTitle")} />
+            <div className="flex flex-col gap-8">
+              {pastEvents.map((event, i) => {
+                const date = formatDate(event.date);
+                return (
+                  <ScrollReveal key={event.id} delay={i * 0.1}>
+                    <article className="group bg-bg-card rounded-2xl overflow-hidden border border-vine/10 flex flex-col md:flex-row opacity-80">
+                      <div className="md:w-80 h-56 md:h-auto relative shrink-0 overflow-hidden">
+                        <Image
+                          src={event.image}
+                          alt={event.title}
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 768px) 100vw, 320px"
+                        />
+                      </div>
+                      <div className="flex-1 p-6 md:p-8">
+                        <div className="flex items-start gap-5 mb-4">
+                          <div className="text-center shrink-0">
+                            <div className="text-3xl font-heading font-semibold text-text-muted leading-none">
+                              {date.day}
+                            </div>
+                            <div className="text-xs tracking-widest text-text-muted uppercase">
+                              {date.month}
+                            </div>
+                          </div>
+                          <div>
+                            <h2 className="text-2xl font-medium text-text mb-2">
+                              {event.title}
+                            </h2>
+                            <div className="flex items-center gap-4 text-sm text-text-muted">
+                              <span>{event.location}</span>
+                            </div>
+                          </div>
+                        </div>
+                        <p className="text-text-muted text-sm leading-relaxed">
+                          {event.description}
+                        </p>
+                      </div>
+                    </article>
+                  </ScrollReveal>
+                );
+              })}
+            </div>
+          </Container>
+        </section>
+      )}
 
       {/* Notify */}
       <section className="section-dark py-20 md:py-28">
