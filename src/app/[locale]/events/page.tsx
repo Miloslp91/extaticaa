@@ -78,7 +78,7 @@ export default function EventsPage() {
       </section>
 
       {/* Events List */}
-      <section className="section-warm py-28 md:py-36">
+      <section className="section-warm py-40 md:py-52">
         <Container>
           {upcomingEvents.length === 0 ? (
             <div className="text-center py-20">
@@ -141,7 +141,7 @@ export default function EventsPage() {
 
       {/* Past Events */}
       {pastEvents.length > 0 && (
-        <section className="section-dark py-32 md:py-44">
+        <section className="section-dark py-48 md:py-64">
           <Container>
             <SectionHeading headline={t("pastTitle")} />
             <div className="flex flex-col gap-8">
@@ -192,7 +192,7 @@ export default function EventsPage() {
       )}
 
       {/* Notify */}
-      <section className="section-dark py-28 md:py-36">
+      <section className="section-dark py-40 md:py-52">
         <Container size="narrow">
           <ScrollReveal>
             <div className="text-center">

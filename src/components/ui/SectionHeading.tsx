@@ -18,7 +18,7 @@ export function SectionHeading({
   return (
     <div
       className={cn(
-        "mb-16 md:mb-20",
+        "mb-20 md:mb-28",
         align === "center" && "text-center",
         className
       )}
