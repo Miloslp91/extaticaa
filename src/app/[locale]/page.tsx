@@ -29,8 +29,8 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-b from-bg/50 via-bg/60 to-bg/95" />
         </div>
 
-        <div className="relative z-10 mx-auto max-w-[1200px] w-full px-6 md:px-8 py-24 md:py-32">
-          <div className="max-w-[680px]">
+        <div className="relative z-10 mx-auto max-w-[1200px] w-full px-8 md:px-16 lg:px-20 py-24 md:py-32">
+          <div className="max-w-[680px] mx-auto text-center">
             <ScrollReveal>
               <p className="text-accent text-sm tracking-widest uppercase mb-4 font-mono">
                 Da Nang & Hoi An, Vietnam
@@ -41,19 +41,19 @@ export default function Home() {
             </ScrollReveal>
 
             <ScrollReveal delay={0.15}>
-              <p className="text-text/70 text-lg md:text-xl mb-8 max-w-[45ch] [text-shadow:_0_1px_10px_rgba(0,0,0,0.4)]">
+              <p className="text-text/70 text-lg md:text-xl mb-8 max-w-[45ch] mx-auto [text-shadow:_0_1px_10px_rgba(0,0,0,0.4)]">
                 {t("description")}
               </p>
             </ScrollReveal>
 
             <ScrollReveal delay={0.25}>
-              <p className="text-text/40 text-sm italic mb-8 max-w-[45ch]">
+              <p className="text-text/40 text-sm italic mb-8 max-w-[45ch] mx-auto">
                 Where the jungle meets the ocean. Where strangers become tribe.
               </p>
             </ScrollReveal>
 
             <ScrollReveal delay={0.35}>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/events">
                   <Button size="lg">{t("cta_events")}</Button>
                 </Link>

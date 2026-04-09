@@ -19,7 +19,7 @@ export function Container({
 }: ContainerProps) {
   return (
     <div
-      className={cn("mx-auto w-full px-6 md:px-8", maxWidths[size], className)}
+      className={cn("mx-auto w-full px-8 md:px-16 lg:px-20", maxWidths[size], className)}
       {...props}
     >
       {children}
