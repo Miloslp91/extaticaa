@@ -1,0 +1,5 @@
+name = "extaticaa"
+compatibility_date = "2024-12-01"
+
+[vars]
+GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbywmuY1PMhu4SIhvoAdSVTEe_S84YN-g670KY26XShJO2eDnc29NyIxGoEej0nTKP9l/exec"
