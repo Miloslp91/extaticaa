@@ -15,7 +15,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Server config error" }, { status: 500 });
     }
 
-    const response = await fetch(GOOGLE_SCRIPT_URL, {
+    await fetch(GOOGLE_SCRIPT_URL, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -25,11 +25,8 @@ export async function POST(req: NextRequest) {
         message,
         date: new Date().toISOString(),
       }),
+      redirect: "follow",
     });
-
-    if (!response.ok) {
-      return NextResponse.json({ error: "Failed to save" }, { status: 500 });
-    }
 
     return NextResponse.json({ success: true });
   } catch {

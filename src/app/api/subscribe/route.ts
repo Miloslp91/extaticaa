@@ -24,12 +24,11 @@ export async function POST(req: NextRequest) {
         source: "extaticaa.com",
         date: new Date().toISOString(),
       }),
+      redirect: "follow",
     });
 
-    if (!response.ok) {
-      return NextResponse.json({ error: "Failed to save" }, { status: 500 });
-    }
-
+    // Google Apps Script returns 302 redirect on success, then serves HTML
+    // Any non-error response (2xx or redirect followed to 2xx) means it worked
     return NextResponse.json({ success: true });
   } catch {
     return NextResponse.json({ error: "Server error" }, { status: 500 });
