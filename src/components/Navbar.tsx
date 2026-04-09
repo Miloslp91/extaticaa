@@ -31,7 +31,7 @@ export default function Navbar() {
         scrolled ? "shadow-lg" : ""
       }`}
     >
-      <div className="mx-auto max-w-[1200px] w-full px-6 md:px-8 py-4 flex items-center justify-between">
+      <div className="mx-auto max-w-[1200px] w-full px-8 sm:px-12 md:px-16 py-4 flex items-center justify-between">
         <Link href="/" className="text-2xl tracking-[0.15em] uppercase font-bold text-accent">
           Extaticaa
         </Link>

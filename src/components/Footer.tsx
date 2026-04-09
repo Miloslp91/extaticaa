@@ -9,7 +9,7 @@ export default function Footer() {
 
   return (
     <footer className="section-dark border-t border-vine/10 py-16 md:py-24">
-      <div className="mx-auto max-w-[1200px] px-6 md:px-8">
+      <div className="mx-auto max-w-[1200px] px-8 sm:px-12 md:px-16">
         <div className="flex flex-col items-center gap-6 text-center">
           <p className="text-2xl tracking-[0.2em] uppercase font-bold text-accent">
             Extaticaa
