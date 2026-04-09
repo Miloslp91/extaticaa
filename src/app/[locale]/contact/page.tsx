@@ -60,8 +60,8 @@ export default function ContactPage() {
                   <h3 className="text-xs tracking-widest uppercase text-text-muted mb-2 font-mono">
                     {t("email_label")}
                   </h3>
-                  <a href="mailto:hello@extaticaa.com" className="text-text hover:text-accent transition-colors duration-300">
-                    hello@extaticaa.com
+                  <a href="mailto:mj@theerosa.com" className="text-text hover:text-accent transition-colors duration-300">
+                    mj@theerosa.com
                   </a>
                 </div>
                 <div>

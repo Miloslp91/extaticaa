@@ -8,6 +8,11 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Button } from "@/components/ui/Button";
 import EmailSignup from "@/components/EmailSignup";
 
+type EventLink = {
+  label: string;
+  url: string;
+};
+
 type EventItem = {
   id: number;
   date: string;
@@ -15,19 +20,22 @@ type EventItem = {
   location: string;
   description: string;
   time: string;
-  ticketUrl: string;
+  links: EventLink[];
   image: string;
 };
 
 const upcomingEvents: EventItem[] = [
   {
     id: 1,
-    date: "2026-04-19",
+    date: "2026-04-25",
     title: "The Jungle Tribe: Ecstatic Dance & Cacao Ritual",
     location: "Da Nang",
     description: "A multisensory homecoming. Heart-opening cacao ritual with Erosa Chocolate, Dance Movement Therapy with Natasha, a sonic odyssey by DJ Kalisa & M Jay, live tribal drumming, and an elemental fire finale under the stars.",
-    time: "Evening",
-    ticketUrl: "https://www.ticketmelon.com/extaticaa/JUNGLE",
+    time: "16:30 - 21:30",
+    links: [
+      { label: "Get Tickets", url: "https://www.ticketmelon.com/extaticaa/JUNGLE" },
+      { label: "Facebook Event", url: "https://www.facebook.com/events/extaticaa" },
+    ],
     image: "/images/event-jungle-tribe.png",
   },
 ];
@@ -40,7 +48,7 @@ const pastEvents: EventItem[] = [
     location: "Da Nang",
     description: "A night of raw movement, community, and elemental connection. Heart-opening cacao ceremony with Erosa Chocolate, Dance Movement Therapy by Natasha, sets by M Jay & Hua Luong, live drumming, and fire performances. A safe, sober, phone-free space for radical freedom.",
     time: "Evening",
-    ticketUrl: "",
+    links: [],
     image: "/images/event-01.jpg",
   },
 ];
@@ -126,9 +134,13 @@ export default function EventsPage() {
                             {event.description}
                           </p>
                         </div>
-                        <Button href={event.ticketUrl} size="default">
-                          {t("getTickets")}
-                        </Button>
+                        <div className="flex flex-wrap gap-3">
+                          {event.links.map((link, j) => (
+                            <Button key={j} href={link.url} size="default" variant={j === 0 ? "primary" : "secondary"}>
+                              {link.label}
+                            </Button>
+                          ))}
+                        </div>
                       </div>
                     </article>
                   </ScrollReveal>
