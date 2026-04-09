@@ -2,4 +2,4 @@ name = "extaticaa"
 compatibility_date = "2024-12-01"
 
 [vars]
-GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyVbg0eCT9r0HEG3cOQFt7wBlU79EYCF8cxOnT3D4k6LnDch-oLubwGiPFNm6WTmzj3/exec"
+GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw4QdVQ6tYnWuOqwR23Vft0q9yIA-8bQkez0PqmJHcGMf-ZArJoMbKyx0JMyVs4L9me/exec"

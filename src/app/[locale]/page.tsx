@@ -29,7 +29,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-b from-bg/50 via-bg/60 to-bg/95" />
         </div>
 
-        <div className="relative z-10 mx-auto max-w-[1000px] w-full site-padding py-24 md:py-32">
+        <div className="relative z-10 mx-auto max-w-[1000px] w-full py-24 md:py-32" style={{ paddingLeft: "clamp(2rem, 5vw, 4rem)", paddingRight: "clamp(2rem, 5vw, 4rem)" }}>
           <div className="max-w-[680px] mx-auto text-center">
             <ScrollReveal>
               <p className="text-accent text-sm tracking-widest uppercase mb-4 font-mono">
@@ -68,7 +68,7 @@ export default function Home() {
 
 
       {/* ─── ABOUT PREVIEW ─── */}
-      <section className="section-warm section-spacing">
+      <section className="section-warm" style={{paddingTop:"clamp(5rem, 8vw, 10rem)",paddingBottom:"clamp(5rem, 8vw, 10rem)"}}>
         <Container>
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
             <ScrollReveal>
@@ -112,7 +112,7 @@ export default function Home() {
 
 
       {/* ─── WHAT IS ECSTATIC DANCE ─── */}
-      <section className="relative section-spacing overflow-hidden">
+      <section className="relative overflow-hidden" style={{paddingTop:"clamp(5rem, 8vw, 10rem)",paddingBottom:"clamp(5rem, 8vw, 10rem)"}}>
         <div className="absolute inset-0">
           <Image
             src="/images/jungle-4.jpg"
@@ -152,7 +152,7 @@ export default function Home() {
 
 
       {/* ─── UPCOMING EVENTS ─── */}
-      <section className="section-warm section-spacing">
+      <section className="section-warm" style={{paddingTop:"clamp(5rem, 8vw, 10rem)",paddingBottom:"clamp(5rem, 8vw, 10rem)"}}>
         <Container size="narrow">
           <ScrollReveal>
             <div className="text-center">
@@ -172,7 +172,7 @@ export default function Home() {
 
 
       {/* ─── INSTAGRAM FEED ─── */}
-      <section className="section-dark section-spacing">
+      <section className="section-dark" style={{paddingTop:"clamp(5rem, 8vw, 10rem)",paddingBottom:"clamp(5rem, 8vw, 10rem)"}}>
         <Container>
           <SectionHeading
             headline={t("ig_title")}
@@ -184,7 +184,7 @@ export default function Home() {
 
 
       {/* ─── EMAIL SIGNUP ─── */}
-      <section className="relative section-spacing overflow-hidden">
+      <section className="relative overflow-hidden" style={{paddingTop:"clamp(5rem, 8vw, 10rem)",paddingBottom:"clamp(5rem, 8vw, 10rem)"}}>
         <div className="absolute inset-0">
           <Image
             src="/images/jungle-2.jpg"

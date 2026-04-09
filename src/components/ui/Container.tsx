@@ -19,7 +19,8 @@ export function Container({
 }: ContainerProps) {
   return (
     <div
-      className={cn("mx-auto w-full site-padding", maxWidths[size], className)}
+      className={cn("mx-auto w-full", maxWidths[size], className)}
+      style={{ paddingLeft: "clamp(2rem, 5vw, 4rem)", paddingRight: "clamp(2rem, 5vw, 4rem)" }}
       {...props}
     >
       {children}

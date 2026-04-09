@@ -9,7 +9,7 @@ export default function Footer() {
 
   return (
     <footer className="section-dark border-t border-vine/10 py-16 md:py-24">
-      <div className="mx-auto max-w-[1000px] site-padding">
+      <div className="mx-auto max-w-[1000px]" style={{ paddingLeft: "clamp(2rem, 5vw, 4rem)", paddingRight: "clamp(2rem, 5vw, 4rem)" }}>
         <div className="flex flex-col items-center gap-6 text-center">
           <p className="text-2xl tracking-[0.2em] uppercase font-bold text-accent">
             Extaticaa

@@ -79,7 +79,7 @@ export default function AboutPage() {
       </section>
 
       {/* Story */}
-      <section className="section-warm section-spacing">
+      <section className="section-warm" style={{paddingTop:"clamp(5rem, 8vw, 10rem)",paddingBottom:"clamp(5rem, 8vw, 10rem)"}}>
         <Container>
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
             <ScrollReveal>
@@ -113,7 +113,7 @@ export default function AboutPage() {
       </section>
 
       {/* Values */}
-      <section className="section-dark section-spacing">
+      <section className="section-dark" style={{paddingTop:"clamp(5rem, 8vw, 10rem)",paddingBottom:"clamp(5rem, 8vw, 10rem)"}}>
         <Container>
           <SectionHeading headline={t("values_title")} />
 
@@ -137,7 +137,7 @@ export default function AboutPage() {
       </section>
 
       {/* Team */}
-      <section className="section-warm section-spacing">
+      <section className="section-warm" style={{paddingTop:"clamp(5rem, 8vw, 10rem)",paddingBottom:"clamp(5rem, 8vw, 10rem)"}}>
         <Container size="wide">
           <SectionHeading
             headline={t("team_title")}
