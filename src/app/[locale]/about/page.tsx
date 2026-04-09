@@ -79,7 +79,7 @@ export default function AboutPage() {
       </section>
 
       {/* Story */}
-      <section className="section-warm py-24 md:py-32">
+      <section className="section-warm py-32 md:py-44">
         <Container>
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
             <ScrollReveal>
@@ -113,7 +113,7 @@ export default function AboutPage() {
       </section>
 
       {/* Values */}
-      <section className="section-dark py-24 md:py-32">
+      <section className="section-dark py-32 md:py-44">
         <Container>
           <SectionHeading headline={t("values_title")} />
 
@@ -137,7 +137,7 @@ export default function AboutPage() {
       </section>
 
       {/* Team */}
-      <section className="section-warm py-24 md:py-32">
+      <section className="section-warm py-32 md:py-44">
         <Container size="wide">
           <SectionHeading
             headline={t("team_title")}

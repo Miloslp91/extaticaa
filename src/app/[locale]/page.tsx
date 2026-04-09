@@ -30,51 +30,36 @@ export default function Home() {
         </div>
 
         <div className="relative z-10 mx-auto max-w-[1200px] w-full px-6 md:px-8 py-24 md:py-32">
-          <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
-            <div className="max-w-[680px]">
-              <ScrollReveal>
-                <p className="text-accent text-sm tracking-widest uppercase mb-4 font-mono">
-                  Da Nang & Hoi An, Vietnam
-                </p>
-                <h1 className="text-4xl md:text-[3.5rem] lg:text-[4.5rem] leading-[1.05] text-text mb-6 [text-shadow:_0_2px_20px_rgba(0,0,0,0.5)]">
-                  {t("subtitle")}
-                </h1>
-              </ScrollReveal>
+          <div className="max-w-[680px]">
+            <ScrollReveal>
+              <p className="text-accent text-sm tracking-widest uppercase mb-4 font-mono">
+                Da Nang & Hoi An, Vietnam
+              </p>
+              <h1 className="text-4xl md:text-[3.5rem] lg:text-[4.5rem] leading-[1.05] text-text mb-6 [text-shadow:_0_2px_20px_rgba(0,0,0,0.5)]">
+                {t("subtitle")}
+              </h1>
+            </ScrollReveal>
 
-              <ScrollReveal delay={0.15}>
-                <p className="text-text/70 text-lg md:text-xl mb-8 max-w-[45ch] [text-shadow:_0_1px_10px_rgba(0,0,0,0.4)]">
-                  {t("description")}
-                </p>
-              </ScrollReveal>
+            <ScrollReveal delay={0.15}>
+              <p className="text-text/70 text-lg md:text-xl mb-8 max-w-[45ch] [text-shadow:_0_1px_10px_rgba(0,0,0,0.4)]">
+                {t("description")}
+              </p>
+            </ScrollReveal>
 
-              <ScrollReveal delay={0.25}>
-                <p className="text-text/40 text-sm italic mb-8 max-w-[45ch]">
-                  Where the jungle meets the ocean. Where strangers become tribe.
-                </p>
-              </ScrollReveal>
+            <ScrollReveal delay={0.25}>
+              <p className="text-text/40 text-sm italic mb-8 max-w-[45ch]">
+                Where the jungle meets the ocean. Where strangers become tribe.
+              </p>
+            </ScrollReveal>
 
-              <ScrollReveal delay={0.35}>
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <Link href="/events">
-                    <Button size="lg">{t("cta_events")}</Button>
-                  </Link>
-                  <Link href="/about">
-                    <Button variant="secondary" size="lg">{t("cta_discover")}</Button>
-                  </Link>
-                </div>
-              </ScrollReveal>
-            </div>
-
-            {/* Hero image right */}
-            <ScrollReveal delay={0.2}>
-              <div className="relative aspect-[3/4] rounded-2xl overflow-hidden max-h-[70vh]">
-                <Image
-                  src="/images/jungle-3.jpg"
-                  alt="Tribal dance"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
+            <ScrollReveal delay={0.35}>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link href="/events">
+                  <Button size="lg">{t("cta_events")}</Button>
+                </Link>
+                <Link href="/about">
+                  <Button variant="secondary" size="lg">{t("cta_discover")}</Button>
+                </Link>
               </div>
             </ScrollReveal>
           </div>
@@ -83,7 +68,7 @@ export default function Home() {
 
 
       {/* ─── ABOUT PREVIEW ─── */}
-      <section className="section-warm py-24 md:py-32">
+      <section className="section-warm py-32 md:py-44">
         <Container>
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
             <ScrollReveal>
@@ -127,7 +112,7 @@ export default function Home() {
 
 
       {/* ─── WHAT IS ECSTATIC DANCE ─── */}
-      <section className="relative py-24 md:py-32 overflow-hidden">
+      <section className="relative py-32 md:py-44 overflow-hidden">
         <div className="absolute inset-0">
           <Image
             src="/images/jungle-4.jpg"
@@ -167,7 +152,7 @@ export default function Home() {
 
 
       {/* ─── UPCOMING EVENTS ─── */}
-      <section className="section-warm py-24 md:py-32">
+      <section className="section-warm py-32 md:py-44">
         <Container size="narrow">
           <ScrollReveal>
             <div className="text-center">
@@ -187,7 +172,7 @@ export default function Home() {
 
 
       {/* ─── INSTAGRAM FEED ─── */}
-      <section className="section-dark py-24 md:py-32">
+      <section className="section-dark py-32 md:py-44">
         <Container>
           <SectionHeading
             headline={t("ig_title")}
@@ -199,7 +184,7 @@ export default function Home() {
 
 
       {/* ─── EMAIL SIGNUP ─── */}
-      <section className="relative py-24 md:py-32 overflow-hidden">
+      <section className="relative py-32 md:py-44 overflow-hidden">
         <div className="absolute inset-0">
           <Image
             src="/images/jungle-2.jpg"
