@@ -68,7 +68,7 @@ export default function Home() {
 
 
       {/* ─── ABOUT PREVIEW ─── */}
-      <section className="section-warm py-48 md:py-64">
+      <section className="section-warm section-spacing">
         <Container>
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
             <ScrollReveal>
@@ -112,7 +112,7 @@ export default function Home() {
 
 
       {/* ─── WHAT IS ECSTATIC DANCE ─── */}
-      <section className="relative py-48 md:py-64 overflow-hidden">
+      <section className="relative section-spacing overflow-hidden">
         <div className="absolute inset-0">
           <Image
             src="/images/jungle-4.jpg"
@@ -152,7 +152,7 @@ export default function Home() {
 
 
       {/* ─── UPCOMING EVENTS ─── */}
-      <section className="section-warm py-48 md:py-64">
+      <section className="section-warm section-spacing">
         <Container size="narrow">
           <ScrollReveal>
             <div className="text-center">
@@ -172,7 +172,7 @@ export default function Home() {
 
 
       {/* ─── INSTAGRAM FEED ─── */}
-      <section className="section-dark py-48 md:py-64">
+      <section className="section-dark section-spacing">
         <Container>
           <SectionHeading
             headline={t("ig_title")}
@@ -184,7 +184,7 @@ export default function Home() {
 
 
       {/* ─── EMAIL SIGNUP ─── */}
-      <section className="relative py-48 md:py-64 overflow-hidden">
+      <section className="relative section-spacing overflow-hidden">
         <div className="absolute inset-0">
           <Image
             src="/images/jungle-2.jpg"

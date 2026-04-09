@@ -40,6 +40,18 @@ h1, h2, h3 {
 .section-dark { background: var(--color-bg); }
 .section-warm { background: var(--color-bg-warm); }
 
+.section-spacing {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+@media (min-width: 768px) {
+  .section-spacing {
+    padding-top: 16rem;
+    padding-bottom: 16rem;
+  }
+}
+
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--color-bg); }
 ::-webkit-scrollbar-thumb { background: var(--color-vine); border-radius: 3px; }
