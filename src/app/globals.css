@@ -41,14 +41,14 @@ h1, h2, h3 {
 .section-warm { background: var(--color-bg-warm); }
 
 .section-spacing {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 @media (min-width: 768px) {
   .section-spacing {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 }
 
