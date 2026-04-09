@@ -43,7 +43,7 @@ const upcomingEvents: EventItem[] = [
 const pastEvents: EventItem[] = [
   {
     id: 100,
-    date: "2026-03-15",
+    date: "2026-03-28",
     title: "Ecstatic Dance & Cacao Ritual at the Beach",
     location: "Da Nang",
     description: "A night of raw movement, community, and elemental connection. Heart-opening cacao ceremony with Erosa Chocolate, Dance Movement Therapy by Natasha, sets by M Jay & Hua Luong, live drumming, and fire performances. A safe, sober, phone-free space for radical freedom.",
