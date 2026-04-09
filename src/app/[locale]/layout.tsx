@@ -4,6 +4,7 @@ import { routing } from "@/i18n/routing";
 import { Cormorant_Garamond, Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import JsonLd from "@/components/JsonLd";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-heading",
@@ -35,6 +36,9 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={`${cormorant.variable} ${inter.variable}`}>
+      <head>
+        <JsonLd />
+      </head>
       <body className="min-h-screen flex flex-col bg-bg text-text font-body" suppressHydrationWarning>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Navbar />
