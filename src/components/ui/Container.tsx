@@ -6,9 +6,9 @@ interface ContainerProps extends HTMLAttributes<HTMLDivElement> {
 }
 
 const maxWidths = {
-  default: "max-w-[1200px]",
-  narrow: "max-w-[800px]",
-  wide: "max-w-[1400px]",
+  default: "max-w-[1000px]",
+  narrow: "max-w-[700px]",
+  wide: "max-w-[1200px]",
 };
 
 export function Container({

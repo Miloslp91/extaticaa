@@ -29,7 +29,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-b from-bg/50 via-bg/60 to-bg/95" />
         </div>
 
-        <div className="relative z-10 mx-auto max-w-[1200px] w-full site-padding py-24 md:py-32">
+        <div className="relative z-10 mx-auto max-w-[1000px] w-full site-padding py-24 md:py-32">
           <div className="max-w-[680px] mx-auto text-center">
             <ScrollReveal>
               <p className="text-accent text-sm tracking-widest uppercase mb-4 font-mono">
