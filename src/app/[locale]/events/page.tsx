@@ -34,7 +34,7 @@ const upcomingEvents: EventItem[] = [
     time: "16:30 - 21:30",
     links: [
       { label: "Get Tickets", url: "https://www.ticketmelon.com/extaticaa/JUNGLE" },
-      { label: "Facebook Event", url: "https://www.facebook.com/events/extaticaa" },
+      { label: "Facebook Event", url: "https://www.facebook.com/events/1744538226517259" },
     ],
     image: "/images/event-jungle-tribe.png",
   },
