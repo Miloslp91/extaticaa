@@ -1,5 +1,11 @@
 name = "extaticaa"
 compatibility_date = "2024-12-01"
+compatibility_flags = ["nodejs_compat"]
+main = ".open-next/worker.js"
+
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
 
 [vars]
 GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw4QdVQ6tYnWuOqwR23Vft0q9yIA-8bQkez0PqmJHcGMf-ZArJoMbKyx0JMyVs4L9me/exec"

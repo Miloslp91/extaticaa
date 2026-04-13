@@ -3,7 +3,8 @@
     "home": "Trang chu",
     "events": "Su kien",
     "about": "Ve chung toi",
-    "contact": "Lien he"
+    "contact": "Lien he",
+    "quiz": "Trac nghiem"
   },
   "home": {
     "subtitle": "Nhay Tu Do giua Thien Nhien tai Da Nang & Hoi An",
@@ -77,6 +78,16 @@
   },
   "instagram": {
     "followUs": "Theo doi chung toi tren Instagram"
+  },
+  "quiz": {
+    "label": "Kham pha ban than",
+    "title": "Ban la kieu nguoi nhu the nao?",
+    "subtitle": "5 cau hoi. 60 giay. Tim hieu co the ban muon nhay nhu the nao.",
+    "resultLabel": "Ban la...",
+    "emailPrompt": "Nhan thong bao ve su kien phu hop voi ban.",
+    "emailButton": "Thong bao toi",
+    "emailSuccess": "Chao mung den voi bo lac. Chung toi se tim buoi nhay cho ban.",
+    "retake": "Lam lai trac nghiem"
   },
   "footer": {
     "tagline": "Trai nghiem nhay tu do giua rung xanh Da Nang va Hoi An. Chuyen dong tu do. Cam nhan sau sac.",

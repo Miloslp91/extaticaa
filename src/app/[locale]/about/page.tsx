@@ -38,10 +38,10 @@ const team = [
     bio: "Entrepreneur from Hanoi with a deep love of the arts and community connection. Through carefully curated sets, Hua brings folk-inspired sounds that carry a sense of healing and gentle harmony. Founder of Salt and many other locations throughout Hoi An.",
   },
   {
-    name: "Thao Dang",
-    role: "Tantric Love Coach / Movement Alchemist",
+    name: "Eros Agneya",
+    role: "DJ / Tantric Love Coach / Movement Alchemist",
     image: "/images/team-thao.jpg",
-    bio: "Tantric love coach, embodiment guide, and movement alchemist devoted to awakening the sacred through the body. With trainings in Tantra, Shamanic rituals, energy healing, and Somatic embodiment, she weaves presence, love, and sensuality into every experience. Recently infusing her love and work into the music.",
+    bio: "DJ, tantric love coach, embodiment guide, and movement alchemist devoted to awakening the sacred through the body. With trainings in Tantra, Shamanic rituals, energy healing, and Somatic embodiment, she weaves presence, love, and sensuality into every experience. Recently infusing her love and work into the music.",
   },
   {
     name: "Tommy",

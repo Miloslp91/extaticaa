@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  verification: {
+    google: "5ZamG0aKMx_3KL345YUWCm_GrHDuLLWK2n_FqBJm4OY",
+  },
   metadataBase: new URL("https://extaticaa.com"),
   title: {
     default: "Extaticaa - Ecstatic Dance in Da Nang & Hoi An",

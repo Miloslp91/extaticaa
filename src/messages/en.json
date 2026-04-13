@@ -3,7 +3,8 @@
     "home": "Home",
     "events": "Events",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "quiz": "Quiz"
   },
   "home": {
     "subtitle": "Ecstatic Dance Tales in Da Nang & Hoi An",
@@ -77,6 +78,16 @@
   },
   "instagram": {
     "followUs": "Follow us on Instagram"
+  },
+  "quiz": {
+    "label": "Discover yourself",
+    "title": "What Type of Mover Are You?",
+    "subtitle": "5 questions. 60 seconds. Find out how your body wants to dance.",
+    "resultLabel": "You are...",
+    "emailPrompt": "Get notified about events perfect for your type.",
+    "emailButton": "Notify Me",
+    "emailSuccess": "Welcome to the tribe. We will find your dance.",
+    "retake": "Take the quiz again"
   },
   "footer": {
     "tagline": "Ecstatic dance experiences in the jungles of Da Nang and Hoi An. Move freely. Feel deeply.",

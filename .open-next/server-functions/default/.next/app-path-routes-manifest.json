@@ -1,0 +1,14 @@
+{
+  "/[locale]/about/page": "/[locale]/about",
+  "/[locale]/contact/page": "/[locale]/contact",
+  "/[locale]/events/page": "/[locale]/events",
+  "/[locale]/page": "/[locale]",
+  "/[locale]/quiz/page": "/[locale]/quiz",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/contact/route": "/api/contact",
+  "/api/subscribe/route": "/api/subscribe",
+  "/favicon.ico/route": "/favicon.ico",
+  "/robots.txt/route": "/robots.txt",
+  "/sitemap.xml/route": "/sitemap.xml"
+}
