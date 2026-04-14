@@ -129,7 +129,7 @@ export default function QuizPage() {
       <Container size="narrow">
         {/* Title */}
         <ScrollReveal>
-          <div className="text-center mb-12">
+          <div className="text-center mb-20 md:mb-28">
             <p className="text-accent text-sm tracking-widest uppercase mb-4 font-mono">
               {t("label")}
             </p>
@@ -179,11 +179,11 @@ export default function QuizPage() {
           </div>
         ) : (
           <div className="text-center">
-            <div className="bg-bg-card rounded-2xl border border-vine/10 p-8 md:p-12 mb-8">
-              <p className="text-6xl mb-6">{results[result].emoji}</p>
-              <p className="text-accent text-sm tracking-widest uppercase mb-2">{t("resultLabel")}</p>
-              <h2 className="text-3xl md:text-4xl text-text mb-6 font-heading">{results[result].title}</h2>
-              <p className="text-text-muted text-lg leading-relaxed mb-6 max-w-[50ch] mx-auto">
+            <div className="bg-bg-card rounded-2xl border border-vine/10" style={{ padding: "clamp(2.5rem, 5vw, 4rem)", marginBottom: "3rem" }}>
+              <p className="text-6xl" style={{ marginBottom: "2rem" }}>{results[result].emoji}</p>
+              <p className="text-accent text-sm tracking-widest uppercase" style={{ marginBottom: "0.75rem" }}>{t("resultLabel")}</p>
+              <h2 className="text-3xl md:text-4xl text-text font-heading" style={{ marginBottom: "2rem" }}>{results[result].title}</h2>
+              <p className="text-text-muted text-lg leading-relaxed max-w-[50ch] mx-auto" style={{ marginBottom: "2rem" }}>
                 {results[result].description}
               </p>
               <p className="text-accent italic">
@@ -193,10 +193,10 @@ export default function QuizPage() {
 
             {/* Email capture */}
             {emailStatus === "success" ? (
-              <p className="text-accent text-lg italic mb-8">{t("emailSuccess")}</p>
+              <p className="text-accent text-lg italic" style={{ marginBottom: "2rem" }}>{t("emailSuccess")}</p>
             ) : (
-              <div className="mb-8">
-                <p className="text-text mb-4">{t("emailPrompt")}</p>
+              <div style={{ marginBottom: "2rem" }}>
+                <p className="text-text" style={{ marginBottom: "1.5rem" }}>{t("emailPrompt")}</p>
                 <form onSubmit={handleEmailSubmit} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
                   <input
                     type="email"
