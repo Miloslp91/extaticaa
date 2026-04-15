@@ -151,6 +151,35 @@ export default function Home() {
       </section>
 
 
+      {/* ─── HOW IT WORKS ─── */}
+      <section className="section-dark" style={{paddingTop:"clamp(5rem, 8vw, 10rem)",paddingBottom:"clamp(5rem, 8vw, 10rem)"}}>
+        <Container>
+          <SectionHeading
+            headline={t("how_title")}
+            subheadline={t("how_subtitle")}
+          />
+
+          <div className="grid sm:grid-cols-3 gap-6 md:gap-8">
+            {[
+              { num: "01", title: t("how_1_title"), desc: t("how_1_desc") },
+              { num: "02", title: t("how_2_title"), desc: t("how_2_desc") },
+              { num: "03", title: t("how_3_title"), desc: t("how_3_desc") },
+            ].map((item, i) => (
+              <ScrollReveal key={i} delay={i * 0.1}>
+                <div style={{ padding: "clamp(1.5rem, 3vw, 2.5rem)" }}>
+                  <p className="text-accent text-3xl font-heading font-semibold" style={{ marginBottom: "1rem" }}>{item.num}</p>
+                  <h3 className="text-xl font-medium text-text" style={{ marginBottom: "1rem" }}>
+                    {item.title}
+                  </h3>
+                  <p className="text-text-muted text-sm leading-relaxed">{item.desc}</p>
+                </div>
+              </ScrollReveal>
+            ))}
+          </div>
+        </Container>
+      </section>
+
+
       {/* ─── UPCOMING EVENTS ─── */}
       <section className="section-warm" style={{paddingTop:"clamp(5rem, 8vw, 10rem)",paddingBottom:"clamp(5rem, 8vw, 10rem)"}}>
         <Container size="narrow">

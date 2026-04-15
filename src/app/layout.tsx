@@ -37,7 +37,7 @@ export const metadata: Metadata = {
       "Free movement in nature. Tribal rhythms. Deep connection. Come dance with us in the jungles of Central Vietnam.",
     images: [
       {
-        url: "/images/jungle-2.jpg",
+        url: "/images/og-default.jpg",
         width: 1200,
         height: 630,
         alt: "Ecstatic dance gathering in the jungle",
@@ -49,16 +49,17 @@ export const metadata: Metadata = {
     title: "Extaticaa - Ecstatic Dance in Da Nang & Hoi An",
     description:
       "Free movement in nature. Tribal rhythms. Deep connection. Come dance with us in the jungles of Central Vietnam.",
-    images: ["/images/jungle-2.jpg"],
+    images: ["/images/og-default.jpg"],
   },
   icons: {
     icon: "/favicon.ico",
   },
   alternates: {
-    canonical: "https://extaticaa.com",
+    canonical: "https://extaticaa.com/en",
     languages: {
-      en: "https://extaticaa.com/en",
-      vi: "https://extaticaa.com/vi",
+      "en": "https://extaticaa.com/en",
+      "vi": "https://extaticaa.com/vi",
+      "x-default": "https://extaticaa.com/en",
     },
   },
 };
